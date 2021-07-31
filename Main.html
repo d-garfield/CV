@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Derek O'Quinn CV</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="description" content="A simple online resume">
 
   
   <meta name="keywords" content="web, website, Software, design, develop, deseigner, developer, architect, frontend, backend, stack, fullstack, jquery, ajax, php, c#, python, mysql, mssql, wordpress, linux, admin, administrator seo, resume, cv, portfolio, london, toronto, ontario, canada, derek oquinn">
@@ -19,6 +19,9 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="resources/tools/bootstrap.min.css" />
+
+  <!-- Functions Go Here -->
   <script>
       //function for showing from buttons
     function show(z) {
@@ -28,26 +31,30 @@
         } else {
           x.style.display = "none";
         }
-      }
+    }
+    
     </script>
 
 </head>
-<div class="fade-in-title">
+<section class="fade-in-title">
     <h1>DEREK O'QUINN</h1>
     <h2>Software Developer</h2>
-</div>
+    
+</section>
 
-<button class="button" onclick="show('whoami')">Who Am I?</button>
-<div class="fade-in-text" style="display: none;"id="whoami">
+<button class="button" onclick="show('whoami')"><span>Who Am I?</span></button>
+
+<section class="fade-in-text" style="display: none;"id="whoami">
 
     <body>
         <p>
         I am a recently graduated web development student eager to use my acquired skills
         in development and programming and analytics in practice, focused on learning new skills and programming languages as well as bolstering experience in my most comfortable areas with multiple semesters of classes such as PHP, Javascript, and C++. </p>
         </p>
-</div>
-<button class="button" onclick="show('technicalskills')">Technical Skills</button>
-    <div id="technicalskills" style="display: none;" class="fade-in-text">
+</section>
+
+<button class="button" onclick="show('technicalskills')"><span>Technical Skills</span></button>
+    <section id="technicalskills" style="display: none;" class="fade-in-text">
         <b>LAMP Server Infrastructure </b>
         <p>Managing, maintaining and building sites to specification in PHP with integration of databases through mySQL in linux</p>
         <b>Graphic Design</b>
@@ -59,27 +66,24 @@
         worked with ASP.NET, AJAX, XML, C#, SQL, HTML,  and CSS</p>
         <b>Wordpress  Experience</b>
         <p>Knowledge of the wordpress framework and functionality, managing plugins and editing themes.</p>
-    </div>
-<button class="button" onclick="show('education')">EDUCATION</button>
-    <div id="education" style="display: none;"class="fade-in-text">
-        <b>Fanshawe College / Internet Applications and Web Development Diploma</b><p></p>
+    </section>
+
+<button class="button" onclick="show('education')"><span>Education</span></button>
+    <section id="education" style="display: none;"class="fade-in-text">
+        <b style="font-size: 20px;">Fanshawe College / Internet Applications and Web Development Diploma</b><p></p>
         <i>Fall 2018 - April 2020,  London Ontario</i>
         <strong>GPA: 3.84 / 4.00</strong><p></p>
         <p>
-        Experience working in mobile application development.
-        Built and maintained server infrastructure.
-        Web security experience learning anti-theft and data integrity practices, creating, managing certificates.
-        2 years experience with Javascript, LAMP, and Web Server technologies.
-        Object oriented programming experience in Javascript, PHP and C++.
+        <li>Experience working in mobile application development.</li>
+        <li>Built and maintained server infrastructure.</li>
+        <li>Web security experience learning anti-theft and data integrity practices, creating, managing certificates.</li>
+        <li>2 years experience with Javascript, LAMP, and Web Server technologies.</li>
+        <li>Object oriented programming experience in Javascript, PHP and C++.</li>
         </p>
+    </section>
 
-</div>
-<footer>
-    <p>Author: Hege Refsnes</p>
-    <p><a href="mailto:derek_879@hotmail.com">derek</a></p>
-  </footer>
 
-</div>
+</section>
 <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,112 @@
+
+*{
+    background-color: darkslategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:1px 1px black;}
+
+body{
+    color:whitesmoke;
+    text-align:center;
+    margin:20px}
+b{
+    font-size: 18px;}
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.2s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.2s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+        background-color:darkgray;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        
+      }
+
+
+.button {
+    background-color: darkslategrey; 
+    border:thin;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin:0 auto;
+    font-size: 19px;
+    transition-duration: 0.2s;
+    border: 1px solid grey;}
+.button:hover{
+      background-color:darkgray;}
+
+
+.fade-in-text {
+        display: inline-block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: white;
+        animation: fadeIn linear 0.5s;
+        -webkit-animation: fadeIn linear 0.5s;
+        -moz-animation: fadeIn linear 0.5s;
+        -o-animation: fadeIn linear 0.5s;
+        -ms-animation: fadeIn linear 0.5s;
+        position:sticky;
+        margin-left: 10%;
+        margin-right:10%;
+      }
+.fade-in-title {
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        color: white;
+        padding: 50px;
+        text-align:center;
+        animation: fadeIn linear 1s;
+        -webkit-animation: fadeIn linear 0.5s;
+        -moz-animation: fadeIn linear 0.5s;
+        -o-animation: fadeIn linear 0.5s;
+        -ms-animation: fadeIn linear 0.5s;
+        
+
+      }
+      
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
