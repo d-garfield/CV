@@ -32,43 +32,65 @@ margin-inline-end: 0px;}
 
 h3{
   font-family: Qualy;
-  font-size:35px;
+  font-size:40px;
   margin-bottom:40px;
   margin-top:130px;
 }
 
 
 .navbar {
-  font-size: 1.6vw;
-  padding-bottom: -2vw;
+  font-size: 1.3vw;
+  padding-bottom: -3vw;
   display: inline-block;
-  filter: drop-shadow(0vw 0.25vw 0.1vw var(--darkgreen));
+  filter: drop-shadow(0vw 0.25vw 0.1vw var(--black));
   text-align: center;
-  background-color: #555;
+  background-color: rgb(36, 61, 61) ;
+  margin-left:0%;
+  margin-right:0%;
+}
+.container-fluid{
+  background-color: rgb(36, 61, 61) ;
 }
 
 li a {
-  text-decoration: none;
   color: var(--white);
   text-align: center;
-  background-color: #555;
-  display:inline-block;
-  background-color:white;
+  font-family: Qualy;
+  background-color: rgb(36, 61, 61) ;
+  margin-left:0%;
+  margin-right:0%;
+}
+li a:hover{
+  
+  transform: scale(1.02); 
+
 }
 
 ul {
   list-style-type: none;
-  display: flex;
-  background-color: #555;
+  display:flex;
+  background-color: rgb(36, 61, 61) ;
   color:white;
   text-align: center;
+  margin-left:0%;
+  margin-right:0%;
   
+}
+textarea,input{
+  background-color: rgb(78, 110, 110) !important;
+  color:white !important;
+}
+
+textarea{
+  max-width:100%;
+  min-width:100%
 }
 
 body{
     color:whitesmoke;
     text-align:center;
     margin:20px;
+    position:relative;
     margin-left:6%;
     margin-right:6%;}
 b{
@@ -83,8 +105,15 @@ b{
 
   }
 
+  .subtitle {
+    font-size: 4.2vw;
+    text-align: center;
+    margin-top: -15vw;
+    filter: drop-shadow(0vw 0.2vw 0.05vw var(--darkgreen));
+}
+
 .T_skills{
-  padding: 15px;
+  padding: 25px;
   text-align: center;
   display:block;
 }
@@ -149,7 +178,7 @@ display:block;
   color: #fff;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .aos-item {
     width: 50%;
   }
@@ -158,9 +187,18 @@ display:block;
     margin-left:5%;
     margin-right:5%
   }
+  li a {
+    font-size:2.5vw;
+  }
+  .navbar-nav{
+    margin-right:15%;
+    background-color: rgb(36, 61, 61) ;
+  }
+  
+  
   
 }
-@media screen and (min-width: 801px) and (max-width:1399px){
+@media screen and (min-width: 769px) and (max-width:1399px){
   .aos-item {
     width: 50%;
   }
@@ -177,8 +215,8 @@ display:block;
   }
   *{
     font-size:1.5vw;
-    margin-left:5%;
-    margin-right:5%
+    margin-left:8%;
+    margin-right:8%
   }
   
 }
