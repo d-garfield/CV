@@ -4,8 +4,8 @@ resume_form_send_mail();
 
 function resume_form_send_mail() {
 	// Honeypot
-	if (isset($_POST['bee_movie']) && $_POST['bee_movie']) {
-		echo 'You appear to be a robot';
+	if (isset($_POST['bot']) && $_POST['bot']) {
+		echo 'Error: bot';
 		return false;
 	}
 

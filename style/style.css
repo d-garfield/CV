@@ -92,7 +92,8 @@ body{
     margin:20px;
     position:relative;
     margin-left:6%;
-    margin-right:6%;}
+    margin-right:6%;
+    background: darkslategray !important;}
 b{
     font-size: 22px;
     text-shadow:1px 1px black;
