@@ -5,13 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Derek O'Quinn CV</title>
+  <title>Derek O'Quinn SD</title>
   <meta name="description" content="A simple online resume">
 
-    <meta name="keywords" content="web, website, Software, design, develop, deseigner, developer, architect, frontend, backend, stack, fullstack, jquery, ajax, php, c#, python, mysql, mssql, wordpress, linux, admin, administrator seo, resume, cv, portfolio, london, toronto, ontario, canada, derek oquinn">
+    <meta name="keywords" content="web, website, Software, design, develop, frontend, backend, stack, fullstack, jquery, ajax, php, c#, python, mysql, mssql, wordpress, linux, admin, administrator seo, resume, cv, portfolio, london, toronto, ontario, canada, derek oquinn">
     <meta name="description" content="Software Developer Derek Oquinn">
 	<meta name="author" content="Derek Oquinn">
-	<meta name="robots" content="all">
     
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -21,13 +20,12 @@
   
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 
-  <!-- Functions Go Here -->
-  <script>
-      
-  </script>
+  
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="resources/186407_arrow_up_icon.png" alt="up-arrow"></button>
 
     <!-- height is temp fix for navbar auto adjusting on small screen-->
     <nav class="navbar navbar-inverse navbar-fixed-top ">
@@ -53,12 +51,14 @@
         </div>
     </nav> 
 
-    <section class="title-box">
+    <section class="title-box" data-aos="fade-in"data-aos-offset="400"
+    data-aos-easing="ease-in-sine">
 
         <h1>DEREK O'QUINN</h1>
         <h2>Software Developer</h2>
         
     </section>
+    
 
 
     <p class="subtitle" style="margin-bottom:400px" id="scrollaboutme"></p>
@@ -66,8 +66,8 @@
     <h3 data-aos="fade-in"data-aos-offset="400"
     data-aos-easing="ease-in-sine" style="padding-bottom:80px;" id="who" >Who Am I?</h3>
 
-    <hr data-aos="fade-in"data-aos-offset="400"
-    data-aos-easing="ease-in-sine">
+    <hr data-aos="fade-in" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
 
     <section class="whoami" data-aos="fade-left"data-aos-offset="300"
     style="display: block; padding-bottom:400px; "id="whoami">
@@ -86,7 +86,7 @@
         <h3 data-aos-offset="200"
             data-aos-easing="ease-in-sine"data-aos="flip-down" id="skills">Technical Skills</h3>
 
-            <hr data-aos="fade-in"data-aos-offset="400"
+            <hr data-aos="fade-in"
             data-aos-easing="ease-in-sine">
 
         <section id="technicalskills"  style="display: block; padding-bottom:300px; " class="fade-in-text">
@@ -94,12 +94,16 @@
             <section class="T_skills" data-aos-offset="150"
             data-aos-easing="ease-in-sine"data-aos="fade-in">
             <b>LAMP Server Infrastructure </b>
+            <hr data-aos="fade-in"
+            data-aos-easing="ease-in-sine">
             <p>Managing, maintaining and building sites to specification in PHP with integration of databases through mySQL in linux</p>
             </section>
 
             <section class="T_skills" data-aos-offset="150"
             data-aos-easing="ease-in-sine"data-aos="fade-in">
             <b>Graphic Design</b>
+            <hr data-aos="fade-in"
+            data-aos-easing="ease-in-sine">
             <p>Creating functional graphics, plans and designs in Adobe Photoshop, Adobe Illustrator and mobile UI mockups in Adobe XD</p>
 
         </section>
@@ -108,6 +112,8 @@
             data-aos-easing="ease-in-sine"data-aos="fade-in">
 
             <b>Web Security</b>
+            <hr data-aos="fade-in"
+            data-aos-easing="ease-in-sine">
             <p>Experience and knowledge of web security practices, types of common attacks, blacklisting and other data security management</p>
 
         </section>
@@ -116,6 +122,8 @@
             data-aos-easing="ease-in-sine"data-aos="fade-in">
 
             <b>Coding Experience</b>
+            <hr data-aos="fade-in"
+            data-aos-easing="ease-in-sine">
             <p>Experienced in object oriented programming in Javascript, PHP, C++, Java and
             worked with ASP.NET, AJAX, XML, C#, SQL, HTML,  and CSS</p>
 
@@ -125,6 +133,8 @@
             data-aos-easing="ease-in-sine"data-aos="fade-in">
 
             <b>Wordpress  Experience</b>
+            <hr data-aos="fade-in"
+            data-aos-easing="ease-in-sine">
             <p>Knowledge of the wordpress framework and functionality, managing plugins and editing themes.</p>
 
         </section>
@@ -136,7 +146,7 @@
         <h3 data-aos-offset="200"
             data-aos-easing="ease-in-sine"data-aos="flip-up" id="school">Education</h3>
 
-            <hr data-aos="fade-in"data-aos-offset="400"
+            <hr data-aos="fade-in"
             data-aos-easing="ease-in-sine">
 
         <section id="education" data-aos-offset="300"
@@ -161,7 +171,7 @@
         <h3 data-aos-offset="200"
             data-aos-easing="ease-in-sine"data-aos="flip-down" id="projects">Projects</h3>
 
-        <hr data-aos="fade-in"data-aos-offset="400"
+            <hr data-aos="fade-in"
             data-aos-easing="ease-in-sine">
 
         <section id="projects" data-aos-offset="300"
@@ -208,5 +218,28 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Functions Go Here -->
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        
+    </script>
 </body>
 </html>
