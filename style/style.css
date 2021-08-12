@@ -6,7 +6,7 @@
     background-color: darkslategrey;
     font-family: Evolve Sans;
     text-shadow:1px 1px black;
-  font-size:20px;
+  font-size:22px;
 }
 
 html {
@@ -225,7 +225,7 @@ display:block;
     width: 50%;
   }
   *{
-    font-size:1.8vw;
+    font-size:2vw;
     margin-left:5%;
     margin-right:5%
   }
@@ -236,7 +236,7 @@ display:block;
     width: 50%;
   }
   *{
-    font-size:1.5vw;
+    font-size:1.8vw;
     margin-left:8%;
     margin-right:8%
   }
