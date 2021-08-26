@@ -22,34 +22,43 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 
   <!-- Functions Go Here -->
-  <script>
-      
-  </script>
+  
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
 
     <!-- height is temp fix for navbar auto adjusting on small screen-->
-    <nav class="navbar navbar-inverse navbar-fixed-top ">
-        <div class="container-fluid" style="height: 49px;">
-          
-            
-            
-            <ul class="nav navbar-nav" style="margin-bottom: 0px;margin-top: 0px;">
-                <li>
-                    <a href="#scrollaboutme" style="height: 49px;">About</a>
-                </li>
-                <li>
-                    <a href="#scrollskills" style="height: 49px;">Skills</a>
-                </li>
-                <li>
-                    <a href="#scrollschool" style="height: 49px;">Education</a>
-                </li>
-                <li>
-                    <a href="#scrollprojects" style="height: 49px;">Projects</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar">
+        
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </button>
+        
            
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav" style="margin-bottom: 0px;margin-top: 0px;">
+                    <li>
+                        <a href="#scrollaboutme" style="height: 49px;">About</a>
+                    </li>
+                    <li>
+                        <a href="#scrollskills" style="height: 49px;">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#scrollschool" style="height: 49px;">Education</a>
+                    </li>
+                    <li>
+                        <a href="#scrollprojects" style="height: 49px;">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#scrollcontact" style="height: 49px;">Contact</a>
+                    </li>
+                </ul>
+          
         </div>
     </nav> 
 
@@ -75,13 +84,12 @@
         
             <p>
             I am a recently graduated web development student eager to use my acquired skills
-            in development and programming and analytics in practice, focused on learning new skills and programming languages as well as bolstering experience in my most comfortable areas with multiple semesters of classes such as PHP, Javascript, and C++. </p>
-            </p>
+            in development and programming and analytics in practice, focused on learning new skills and programming languages as well as bolstering experience in my most comfortable areas such as PHP, JavaScript/HTML/CSS, and C++. 
 
 
     </section>
 
-    <p class="subtitle" style="margin-bottom:160px" id="scrollskills"></p>
+    <p class="subtitle" style="margin-bottom:300px" id="scrollskills"></p>
 
         <h3 data-aos-offset="200"
             data-aos-easing="ease-in-sine"data-aos="flip-down" id="skills">Technical Skills</h3>
@@ -131,7 +139,7 @@
 
     </section>
 
-        <p class="subtitle" style="margin-bottom:200px" id="scrollschool"></p>
+        <p class="subtitle" style="margin-bottom:300px" id="scrollschool"></p>
 
         <h3 data-aos-offset="200"
             data-aos-easing="ease-in-sine"data-aos="flip-up" id="school">Education</h3>
@@ -180,6 +188,8 @@
 
         </section>
 
+        <p class="subtitle" style="margin-bottom:300px" id="scrollcontact"></p>
+
         <p class="lead text-center">Or use this contact form below:</p>
         <form name="contactform" method="post" action="resources/contact-form.php">
             
@@ -205,8 +215,45 @@
     <!-- Better animations on scrolling-->
     <script>AOS.init();</script>
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+
+/*
+        function colourChange(x){
+
+        var text = document.getElementById(x);
+        var str = text.innerHTML,
+        reg = /PHP||JavaScript|C\+\+/ig; //g is to replace all occurances
+
+        //fixing a bit
+        var toStr = String(reg);
+        var color = (toStr.replace('\/g', '|')).substring(1);
+
+        //split it baby
+        var colors = color.split("|");
+
+        if (colors.indexOf("PHP") > -1) {
+            str = str.replace(/PHP/g, '<span style="color:#787CB5;">PHP</span>');
+        }
+
+        if (colors.indexOf("JavaScript") > -1) {
+            str = str.replace(/JavaScript/g, '<span style="color:#f0db4f;">JavaScript</span>');
+        }
+
+        if (colors.indexOf("C++") > -1) {
+            str = str.replace(/C\+\+/g, '<span style="color:blue;">C\+\+</span>');
+        }
+
+
+
+        document.getElementById(x).innerHTML = str;
+    }
+
+        colourChange('whoami');*/
+
+</script>
 </body>
 </html>
