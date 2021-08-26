@@ -6,11 +6,16 @@
     background-color: rgb(23, 24, 24);
     font-family: Evolve Sans;
     text-shadow:1px 1px black;
-  font-size:20px;
+  font-size:22px;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.title-box{
+  padding-top:50px;
+  padding-bottom:50px;
 }
     
 h1{
@@ -95,9 +100,6 @@ b{
     font-family:Hakuna;
     margin-top:40px;
     text-align: center;
-    border-bottom:groove;
-    
-    border-color:white;
 
   }
 
@@ -143,6 +145,26 @@ display:block;
   background: #888;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover { 
+  background-color: rgba(36, 61, 61);
+}
+
 *,
 *:before,
 *:after {
@@ -157,7 +179,6 @@ display:block;
 
 .aos-item {
   display: inline-block;
-  float: left;
   width: 33.3333%;
   height: 300px;
   padding: 20px;
@@ -187,10 +208,15 @@ display:block;
     font-size:20px;
   }
   .navbar-nav{
+<<<<<<< HEAD
     margin-right:0%;
     background-color: rgb(23, 24, 24) ;
     display:block;
   
+=======
+    margin-right:15%;
+    background-color: rgb(36, 61, 61);
+>>>>>>> b6cc4578a4e2bda457dd4c874ff0fb6efcaa8b5f
   }
   
   
@@ -201,7 +227,7 @@ display:block;
     width: 50%;
   }
   *{
-    font-size:1.8vw;
+    font-size:2vw;
     margin-left:5%;
     margin-right:5%
   }
@@ -212,7 +238,7 @@ display:block;
     width: 50%;
   }
   *{
-    font-size:1.5vw;
+    font-size:1.8vw;
     margin-left:8%;
     margin-right:8%
   }
