@@ -3,7 +3,7 @@
 @font-face { font-family: Evolve Sans; src: url('Evolve\ Sans.otf'); }
 @font-face { font-family: Hakuna; src: url('Hakuna-Sans.otf'); }
 *{
-    background-color: darkslategrey;
+    background-color: rgb(23, 24, 24);
     font-family: Evolve Sans;
     text-shadow:1px 1px black;
   font-size:22px;
@@ -14,6 +14,11 @@ html {
 }
 
 .title-box{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.row{
   padding-top:50px;
   padding-bottom:50px;
 }
@@ -42,6 +47,18 @@ h3{
   margin-top:130px;
 }
 
+a{
+  color:rgb(146, 66, 66);
+  }
+
+a:hover{
+  color:gray;
+  text-decoration: none;
+  }
+
+a:visited{
+  color:rgb(146, 66, 66);
+}
 
 .navbar {
   font-size: 1.3vw;
@@ -49,32 +66,27 @@ h3{
   display: inline-block;
   filter: drop-shadow(0vw 0.25vw 0.1vw var(--black));
   text-align: center;
-  background-color: rgb(36, 61, 61) ;
+  background-color: rgb(20, 20, 20) ;
   margin-left:0%;
   margin-right:0%;
 }
 .container-fluid{
-  background-color: rgb(36, 61, 61) ;
+  background-color: rgbrgb(20, 20, 20) ;
 }
 
 li a {
   color: var(--white);
   text-align: center;
   font-family: Qualy;
-  background-color: rgb(36, 61, 61) ;
+  background-color: rgb(20, 20, 20) ;
   margin-left:0%;
   margin-right:0%;
-}
-li a:hover{
-  
-  transform: scale(1.02); 
-
 }
 
 ul {
   list-style-type: none;
   display:flex;
-  background-color: rgb(36, 61, 61) ;
+  background-color: rgb(20, 20, 20) ;
   color:white;
   text-align: center;
   margin-left:0%;
@@ -82,7 +94,7 @@ ul {
   
 }
 textarea,input{
-  background-color: rgb(78, 110, 110) !important;
+  background-color: rgb(23, 24, 24) !important;
   color:white !important;
 }
 
@@ -98,7 +110,8 @@ body{
     position:relative;
     margin-left:6%;
     margin-right:6%;
-    background: darkslategray !important;}
+    background: rgb(23, 24, 24) !important;}
+
 b{
     font-size: 22px;
     text-shadow:1px 1px black;
@@ -137,17 +150,17 @@ display:block;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: darkslategray;
+  background: rgb(23, 24, 24)
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #555;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #888;
 }
 
 #myBtn {
@@ -159,7 +172,7 @@ display:block;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: darkslategray;
+  background-color: rgb(23, 24, 24) ;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -167,7 +180,7 @@ display:block;
 }
 
 #myBtn:hover { 
-  background-color: rgba(36, 61, 61);
+  background-color: rgb(23, 24, 24) ;
 }
 
 *,
@@ -210,11 +223,13 @@ display:block;
     margin-right:5%
   }
   li a {
-    font-size:2.5vw;
+    font-size:20px;
   }
   .navbar-nav{
-    margin-right:15%;
-    background-color: rgb(36, 61, 61);
+    margin-right:0%;
+    background-color: rgb(20, 20, 20) ;
+    display:block;
+  
   }
   
   
@@ -240,14 +255,7 @@ display:block;
     margin-left:8%;
     margin-right:8%
   }
-  b{
-    font-size: 28px;
-    text-shadow:1px 1px black;
-    font-family:Hakuna;
-    margin-top:40px;
-    text-align: center;
-
-  }
+  b{font-size:26px;}
   
 }
 
