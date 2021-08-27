@@ -20,10 +20,6 @@
   
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 
-<<<<<<< HEAD
-  <!-- Functions Go Here -->
-=======
->>>>>>> b6cc4578a4e2bda457dd4c874ff0fb6efcaa8b5f
   
 
 </head>
@@ -78,7 +74,7 @@
 
     <p class="subtitle" style="margin-bottom:400px" id="scrollaboutme"></p>
 
-    <h3 data-aos="fade-in"data-aos-offset="400"
+    <h3 data-aos="fade-in"data-aos-offset="450"
     data-aos-easing="ease-in-sine" style="padding-bottom:80px;" id="who" >Who Am I?</h3>
 
     <hr data-aos="fade-in" data-aos-offset="300"
@@ -108,16 +104,14 @@
             <section class="T_skills" data-aos-offset="150"
             data-aos-easing="ease-in-sine"data-aos="fade-in">
             <b>LAMP Server Infrastructure </b>
-            <hr data-aos="fade-in"
-            data-aos-easing="ease-in-sine">
+            <hr>
             <p>Managing, maintaining and building sites to specification in PHP with integration of databases through mySQL in linux</p>
             </section>
 
             <section class="T_skills" data-aos-offset="150"
             data-aos-easing="ease-in-sine"data-aos="fade-in">
             <b>Graphic Design</b>
-            <hr data-aos="fade-in"
-            data-aos-easing="ease-in-sine">
+            <hr>
             <p>Creating functional graphics, plans and designs in Adobe Photoshop, Adobe Illustrator and mobile UI mockups in Adobe XD</p>
 
         </section>
@@ -126,8 +120,7 @@
             data-aos-easing="ease-in-sine"data-aos="fade-in">
 
             <b>Web Security</b>
-            <hr data-aos="fade-in"
-            data-aos-easing="ease-in-sine">
+            <hr>
             <p>Experience and knowledge of web security practices, types of common attacks, blacklisting and other data security management</p>
 
         </section>
@@ -136,8 +129,7 @@
             data-aos-easing="ease-in-sine"data-aos="fade-in">
 
             <b>Coding Experience</b>
-            <hr data-aos="fade-in"
-            data-aos-easing="ease-in-sine">
+            <hr>
             <p>Experienced in object oriented programming in Javascript, PHP, C++, Java and
             worked with ASP.NET, AJAX, XML, C#, SQL, HTML,  and CSS</p>
 
@@ -147,8 +139,7 @@
             data-aos-easing="ease-in-sine"data-aos="fade-in">
 
             <b>Wordpress  Experience</b>
-            <hr data-aos="fade-in"
-            data-aos-easing="ease-in-sine">
+            <hr>
             <p>Knowledge of the wordpress framework and functionality, managing plugins and editing themes.</p>
 
         </section>
@@ -191,37 +182,22 @@
         <section id="projects" data-aos-offset="300"
         data-aos-easing="ease-in-sine" data-aos="fade-right" style="display: block; padding-bottom:400px;"class="fade-in-text">
 
-            <b style="font-size: 20px;">Fanshawe College / Internet Applications and Web Development</b><p></p>
-            <i>Fall 2018 - April 2020,  London Ontario</i>
-            <strong>GPA: 3.84 / 4.00</strong><p></p>
-            <p>
-            <li>Experience working in mobile application development.</li>
-            <li>Built and maintained server infrastructure.</li>
-            <li>Web security experience learning anti-theft and data integrity practices, creating, managing certificates.</li>
-            <li>2 years experience with Javascript, LAMP, and Web Server technologies.</li>
-            <li>Object oriented programming experience in Javascript, PHP and C++.</li>
-            </p>
-
+            
         </section>
 
         <p class="subtitle" style="margin-bottom:300px" id="scrollcontact"></p>
 
-        <p class="lead text-center">Or use this contact form below:</p>
-        <form name="contactform" method="post" action="resources/contact-form.php">
-            
-            <input type="hidden" name="bot" value="">
-            <p>Your Name</p>
-            <input class="input form-control" type="text" name="name">
+        <section id="contact" data-aos-offset="200"
+        data-aos-easing="ease-in-sine" data-aos="fade-right" style="display: block; padding-bottom:400px;"class="fade-in-text">
 
-            <p>Your Email</p>
-            <input class="input form-control" type="text" name="email">
+        <h2>Email me<a style="display:inline; font-family:Evolve Sans; font-size:40px;
+            margin-bottom:100px; margin:3%;" href="mailto:derek.oquinn.wd@outlook.com">here</a>
+            </h2>
+        <h2>or contact me on <a style="font-family:Evolve Sans; font-size:40px;
+            margin-bottom:100px; margin:3%;" href="www.linkedin.com/in/derek-oquinn-wd" target="_blank">LinkedIn</a>
+            </h2> </h2>
 
-            <p>Your Message</p>
-            <textarea class="input form-control" name="message"></textarea>
-
-            <input class="input submit form-control" type="submit" value="Send">
-        </form>
-
+        
 
     
     <!-- JS for Bootstrap-->
@@ -235,44 +211,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<<<<<<< HEAD
-    <script>
-
-/*
-        function colourChange(x){
-
-        var text = document.getElementById(x);
-        var str = text.innerHTML,
-        reg = /PHP||JavaScript|C\+\+/ig; //g is to replace all occurances
-
-        //fixing a bit
-        var toStr = String(reg);
-        var color = (toStr.replace('\/g', '|')).substring(1);
-
-        //split it baby
-        var colors = color.split("|");
-
-        if (colors.indexOf("PHP") > -1) {
-            str = str.replace(/PHP/g, '<span style="color:#787CB5;">PHP</span>');
-        }
-
-        if (colors.indexOf("JavaScript") > -1) {
-            str = str.replace(/JavaScript/g, '<span style="color:#f0db4f;">JavaScript</span>');
-        }
-
-        if (colors.indexOf("C++") > -1) {
-            str = str.replace(/C\+\+/g, '<span style="color:blue;">C\+\+</span>');
-        }
-
-
-
-        document.getElementById(x).innerHTML = str;
-    }
-
-        colourChange('whoami');*/
-
-</script>
-=======
     
     <!-- Functions Go Here -->
     <script>
@@ -296,6 +234,5 @@
         }
         
     </script>
->>>>>>> b6cc4578a4e2bda457dd4c874ff0fb6efcaa8b5f
 </body>
 </html>

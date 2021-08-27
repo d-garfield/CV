@@ -42,6 +42,18 @@ h3{
   margin-top:130px;
 }
 
+a{
+  color:rgb(146, 66, 66);
+  }
+
+a:hover{
+  color:gray;
+  text-decoration: none;
+  }
+
+a:visited{
+  color:rgb(146, 66, 66);
+}
 
 .navbar {
   font-size: 1.3vw;
@@ -154,7 +166,7 @@ display:block;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: darkslategray;
+  background-color: rgb(23, 24, 24) ;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -162,7 +174,7 @@ display:block;
 }
 
 #myBtn:hover { 
-  background-color: rgba(36, 61, 61);
+  background-color: rgb(23, 24, 24) ;
 }
 
 *,
@@ -208,15 +220,10 @@ display:block;
     font-size:20px;
   }
   .navbar-nav{
-<<<<<<< HEAD
     margin-right:0%;
     background-color: rgb(23, 24, 24) ;
     display:block;
   
-=======
-    margin-right:15%;
-    background-color: rgb(36, 61, 61);
->>>>>>> b6cc4578a4e2bda457dd4c874ff0fb6efcaa8b5f
   }
   
   
