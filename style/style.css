@@ -236,9 +236,17 @@ display:block;
     width: 50%;
   }
   *{
-    font-size:1.8vw;
+    font-size:1.6vw;
     margin-left:8%;
     margin-right:8%
+  }
+  b{
+    font-size: 28px;
+    text-shadow:1px 1px black;
+    font-family:Hakuna;
+    margin-top:40px;
+    text-align: center;
+
   }
   
 }
