@@ -66,19 +66,19 @@ a:visited{
   display: inline-block;
   filter: drop-shadow(0vw 0.25vw 0.1vw var(--black));
   text-align: center;
-  background-color: rgb(23, 24, 24) ;
+  background-color: rgb(20, 20, 20) ;
   margin-left:0%;
   margin-right:0%;
 }
 .container-fluid{
-  background-color: rgb(23, 24, 24) ;
+  background-color: rgbrgb(20, 20, 20) ;
 }
 
 li a {
   color: var(--white);
   text-align: center;
   font-family: Qualy;
-  background-color: rgb(23, 24, 24) ;
+  background-color: rgb(20, 20, 20) ;
   margin-left:0%;
   margin-right:0%;
 }
@@ -86,7 +86,7 @@ li a {
 ul {
   list-style-type: none;
   display:flex;
-  background-color: rgb(23, 24, 24) ;
+  background-color: rgb(20, 20, 20) ;
   color:white;
   text-align: center;
   margin-left:0%;
@@ -227,7 +227,7 @@ display:block;
   }
   .navbar-nav{
     margin-right:0%;
-    background-color: rgb(23, 24, 24) ;
+    background-color: rgb(20, 20, 20) ;
     display:block;
   
   }
