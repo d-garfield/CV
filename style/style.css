@@ -3,7 +3,6 @@
 @font-face { font-family: Evolve Sans; src: url('Evolve\ Sans.otf'); }
 @font-face { font-family: Hakuna; src: url('Hakuna-Sans.otf'); }
 *{
-    background-color: rgb(23, 24, 24);
     font-family: Evolve Sans;
     text-shadow:1px 1px black;
   font-size:22px;
