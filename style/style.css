@@ -17,6 +17,11 @@ html {
   padding-bottom:50px;
 }
 
+.img-rounded{
+
+
+}
+
 .row{
   padding-top:50px;
   padding-bottom:50px;
@@ -138,6 +143,10 @@ font-family: Qualy;
 display:block;
 }
 
+.projectlink{
+  text-decoration: underline dotted;
+  padding:10px;
+}
 
 
 
@@ -217,7 +226,7 @@ display:block;
     width: 50%;
   }
   *{
-    font-size:3vw;
+    font-size:5vw;
     margin-left:5%;
     margin-right:5%
   }
@@ -229,6 +238,12 @@ display:block;
     background-color: rgb(20, 20, 20) ;
     display:block;
   
+  }
+  .img-rounded{
+    height:200px;
+    width:250px;
+    padding-bottom:20px;
+    padding-top:20px;
   }
   
   
@@ -258,3 +273,14 @@ display:block;
   
 }
 
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
