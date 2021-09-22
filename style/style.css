@@ -158,6 +158,10 @@ footer{
   color:darkgray;
   margin:5px;
 }
+.footer-icons:visited{
+  color:darkgray;
+  margin:5px;
+}
 
 hr{
   margin-left:10%;
@@ -168,8 +172,8 @@ hr{
   margin-right:16%;
 }
 .education-skills{
-  margin-left:10%;
-  margin-right:10%;
+  margin-left:12%;
+  margin-right:12%;
 }
 .project-skills{
   margin-left:10%;
