@@ -12,12 +12,20 @@
     <meta name="description" content="Software Developer Derek Oquinn">
 	<meta name="author" content="Derek Oquinn">
     
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
+    <!--Bootstrap link-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!---Custom css sheet link-->
   <link rel="stylesheet" href="style/style.css">
-  
+
+  <!--FontAwesome for icons link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" crossorigin="anonymous">
+
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <!--Animate on scroll library-->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 
   
@@ -25,7 +33,7 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="resources/186407_arrow_up_icon.png" alt="up-arrow"></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="up-arrow"src="resources/186407_arrow_up_icon.png" alt="up-arrow"></button>
 
     <!-- height is temp fix for navbar auto adjusting on small screen-->
     <nav class="navbar navbar-inverse navbar-fixed-top navbar">
@@ -96,13 +104,13 @@
 
     <p class="subtitle" style="margin-bottom:300px" id="scrollskills"></p>
 
-        <h3 data-aos-offset="200"
+        <h3  data-aos-offset="200"
             data-aos-easing="ease-in-sine"data-aos="fade-in" id="skills">Technical Skills</h3>
 
             <hr data-aos="fade-in"
             data-aos-easing="ease-in-sine">
 
-        <section id="technicalskills"  style="display: block; padding-bottom:300px; " class="fade-in-text">
+        <section class="tech-skills" id="technicalskills"  style="display: block; padding-bottom:300px; " class="fade-in-text">
         
             <section class="T_skills" data-aos-offset="150"
             data-aos-easing="ease-in-sine"data-aos="fade-in">
@@ -157,11 +165,12 @@
             <hr data-aos="fade-in"
             data-aos-easing="ease-in-sine" style="padding-bottom:60px;">
 
+            <section class="education-skills">
         <section id="education" data-aos-offset="300"
         data-aos-easing="ease-in-sine" data-aos="fade-in" style="display: block; padding-bottom:350px;"class="fade-in-text">
 
             <b>Fanshawe College / Internet Applications and Web Development </b><hr>
-            <i>Fall 2018 - April 2020,  London Ontario</i><p></p>
+            <p>Fall 2018 - April 2020,  London Ontario</p><p></p>
             <strong>GPA: 3.84</strong>
             <p>
             <li>Experience working in mobile application development.</li>
@@ -172,6 +181,7 @@
             </p>
 
         </section>
+    </section>
         
 
     <p class="subtitle" style="margin-bottom:260px" id="scrollprojects"></p>
@@ -182,11 +192,13 @@
             <hr data-aos="fade-in"
             data-aos-easing="ease-in-sine" style="padding-bottom:100px;">
 
+    <section class="project-skills">
+
         <section id="projects" style="display: block; padding-bottom:400px;"class="fade-in-text">
 
         <div class="row" data-aos="fade-in"
-        data-aos-easing="ease-in-sine">
-            <div class="col-md-6" style="text-align:right;margin:0%;">
+        data-aos-easing="ease-in-sine" style="margin-left:12%;">
+            <div class="col-md-5" style="text-align:right;margin:0%;">
                 <b>This Website</b>
                 <p>Created with a combination of JavaScript, HTML, and CSS this website was built from scratch by me using design principles. </p>
                 <p>
@@ -194,18 +206,18 @@
                 </p>
             </div>
             <div class="col-md-5" style="margin:0%;">
-                    <img class="img-rounded" style="max-height:400px;max-width:350px;" alt="Website Code" src="resources/code.PNG">
+                    <img class="img-rounded" style="height:auto;width:80%;" alt="Website Code" src="resources/code.PNG">
                 </a>
             </div>
         </div>
         <hr>
         <div class="row" data-aos="fade-in"
-        data-aos-easing="ease-in-sine">
-            <div class="col-md-6" style="margin:0%;">
-                <img class="img-rounded" style="max-height:400px;max-width:350px;" alt="Website Code" src="resources/code.PNG">
+        data-aos-easing="ease-in-sine" style="margin-left:12%;">
+            <div class="col-md-5" style="margin:0%;">
+                <img class="img-rounded" style="height:auto;width:80%;" alt="Website Code" src="resources/code.PNG">
             </a>
         </div>
-            <div class="col-md-6" style="text-align:left;margin:0%;">
+            <div class="col-md-5" style="text-align:left;margin:0%;">
                 <b>This Website</b>
                 <p>Created with a combination of JavaScript, HTML, and CSS this website was built from scratch by me using design principles. </p>
                 <p>
@@ -216,8 +228,8 @@
         </div>
         <hr>
         <div class="row" data-aos="fade-in"
-        data-aos-easing="ease-in-sine">
-            <div class="col-md-6" style="text-align:right;margin:0%;">
+        data-aos-easing="ease-in-sine" style="margin-left:12%;">
+            <div class="col-md-5" style="text-align:right;margin:0%;">
                 <b>This Website</b>
                 <p>Created with a combination of JavaScript, HTML, and CSS this website was built from scratch by me using design principles. </p>
                 <p>
@@ -225,7 +237,7 @@
                 </p>
             </div>
             <div class="col-md-5" style="margin:0%;">
-                    <img class="img-rounded" style="max-height:400px;max-width:350px;" alt="Website Code" src="resources/code.PNG">
+                    <img class="img-rounded" style="height:auto;width:80%;" alt="Website Code" src="resources/code.PNG">
                 </a>
             </div>
         </div>
@@ -233,11 +245,12 @@
 
             
         </section>
+    </section>
 
         <p class="subtitle" style="margin-bottom:300px" id="scrollcontact"></p>
 
         <section id="contact" data-aos-offset="200"
-        data-aos-easing="ease-in-sine" data-aos="fade-in" style="display: block; padding-bottom:400px;"class="fade-in-text">
+        data-aos-easing="ease-in-sine" data-aos="fade-in" style="display: block; padding-bottom:150px;"class="fade-in-text">
 
         <h2>Email me<a style="display:inline; font-family:Evolve Sans; font-size:40px;
             margin-bottom:100px; margin:3%;" href="mailto:derek.oquinn.wd@outlook.com">here</a>
@@ -251,12 +264,28 @@
                 margin-bottom:100px; margin:3%;" href="https://github.com/d-garfield" target="_blank">GitHub</a>
                 </h2> 
             </h2> 
+        </section>
+</body>
+
+        <footer>
+            <a class="footer-icons" href="mailto:derek.oquinn.wd@outlook.com">
+                <i class="fas fa-envelope" href="mailto:derek.oquinn.wd@outlook.com"></i>
+            </a>
+
+            <a class="footer-icons" href="https://github.com/d-garfield" target="_blank">
+            <i class="fab fa-github" href="https://github.com/d-garfield"></i></a>
+
+            <a class="footer-icons" href="https://www.linkedin.com/in/derek-oquinn-wd" target="_blank">
+                <i class="fab fa-linkedin" href="https://www.linkedin.com/in/derek-oquinn-wd"
+            ></i></a>
+
+            <p class="footer-text">Derek O'Quinn © 2021</p>
+        </footer>
 
         
 
     
     <!-- JS for Bootstrap-->
-    <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Better animations on scrolling-->
@@ -291,5 +320,4 @@
 
         
     </script>
-</body>
 </html>
