@@ -15,7 +15,11 @@ html {
 .title-box{
   padding-top:50px;
   padding-bottom:50px;
+  cursor:default;
+
+  
 }
+
 
 .img-rounded{
 
@@ -32,6 +36,19 @@ h1{
   font-size:80px;
   font-family:Qualy;
   margin-bottom:10px;
+
+  background: linear-gradient(to right, rgb(63, 63, 63), rgb(128, 128, 128) 50%, rgb(230, 230, 230) 50%);
+  overflow: hidden;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-shadow: none;
+}
+h1:hover{
+  background-position: 0 100%;
 }
 h2{
   font-size:40px;
@@ -52,11 +69,26 @@ h3{
 }
 
 a{
-  color:rgb(146, 66, 66);
+  color:rgb(225, 65, 65);
   }
+
+.bottom-links{
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 0) 50%, rgb(252, 104, 104) 50%);
+  color: rgb(225, 65, 65);
+  overflow: hidden;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-shadow: none;
+
+}
 
 a:hover{
   color:gray;
+  background-position: 0 100%;
   text-decoration: none;
   }
 
@@ -145,17 +177,12 @@ font-family: Qualy;
 display:block;
 }
 
-<<<<<<< HEAD
-.projectlink{
-  text-decoration: underline dotted;
-  padding:10px;
-}
-=======
 footer{
   border-top-style: groove;
   border-radius: 1px;
   border-width: 1px;
   border-color:black;
+  background:black;
   position:absolute;
   width:100%;
   margin:0%;
@@ -194,7 +221,6 @@ hr{
 
 
 
->>>>>>> c418a3188ef8c52541207ca37193f3aa4cc5bebe
 
 
 
@@ -274,13 +300,7 @@ hr{
     width: 50%;
   }
   *{
-<<<<<<< HEAD
-    font-size:5vw;
-    margin-left:5%;
-    margin-right:5%
-=======
     font-size:3vw;
->>>>>>> c418a3188ef8c52541207ca37193f3aa4cc5bebe
   }
   li a {
     font-size:20px;
@@ -291,13 +311,6 @@ hr{
     display:block;
   
   }
-<<<<<<< HEAD
-  .img-rounded{
-    height:200px;
-    width:250px;
-    padding-bottom:20px;
-    padding-top:20px;
-=======
   p, b, .colortext, li, i, strong, a{
     font-size:20px;
   }
@@ -314,8 +327,9 @@ hr{
   hr{
     margin-left:10%;
     margin-right:10%;
->>>>>>> c418a3188ef8c52541207ca37193f3aa4cc5bebe
   }
+  
+  
   
   
   
@@ -327,6 +341,9 @@ hr{
   *{
     font-size:2vw;
     
+  }
+  .navbar-nav{
+    margin-left:22%;
   }
   
 }
@@ -343,17 +360,15 @@ hr{
     margin-right:20%;
   }
   b{font-size:26px;}
+  .navbar-nav{
+    margin-left:29.6%;
+  }
+  .tech-skills{
+    margin-left:25%;
+    margin-right:25%;
+  }
   
 }
 
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
-}
+
+
