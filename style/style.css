@@ -73,6 +73,11 @@ a:visited{
   background-color: rgbrgb(20, 20, 20) ;
 }
 
+.whoami{
+  margin-left:16%;
+  margin-right:16%;
+}
+
 li a {
   color: var(--white);
   text-align: center;
@@ -105,10 +110,7 @@ textarea{
 body{
     color:whitesmoke;
     text-align:center;
-    margin:20px;
     position:relative;
-    margin-left:6%;
-    margin-right:6%;
     background: rgb(23, 24, 24) !important;}
 
 b{
@@ -137,6 +139,45 @@ strong{
 font-family: Qualy;
 display:block;
 }
+
+footer{
+  border-top-style: groove;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color:black;
+  position:absolute;
+  width:100%;
+  margin:0%;
+}
+
+.footer-text{
+  font-size:14px;
+}
+
+.footer-icons{
+  color:darkgray;
+  margin:5px;
+}
+
+hr{
+  margin-left:10%;
+  margin-right:10%;
+}
+.tech-skills{
+  margin-left:16%;
+  margin-right:16%;
+}
+.education-skills{
+  margin-left:10%;
+  margin-right:10%;
+}
+.project-skills{
+  margin-left:10%;
+  margin-right:10%;
+}
+
+
+
 
 
 
@@ -171,7 +212,7 @@ display:block;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(23, 24, 24) ;
+  background-color: rgb(23, 24, 24,0) ;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -179,7 +220,7 @@ display:block;
 }
 
 #myBtn:hover { 
-  background-color: rgb(23, 24, 24) ;
+  filter:brightness(1.4);
 }
 
 *,
@@ -218,8 +259,6 @@ display:block;
   }
   *{
     font-size:3vw;
-    margin-left:5%;
-    margin-right:5%
   }
   li a {
     font-size:20px;
@@ -239,6 +278,14 @@ display:block;
     padding-top:10px;
     padding-bottom:20px;
   }
+
+  .footer-icons{
+    text-align: left;
+  }
+  hr{
+    margin-left:10%;
+    margin-right:10%;
+  }
   
   
   
@@ -249,8 +296,7 @@ display:block;
   }
   *{
     font-size:2vw;
-    margin-left:5%;
-    margin-right:5%
+    
   }
   
 }
@@ -260,8 +306,11 @@ display:block;
   }
   *{
     font-size:1.6vw;
-    margin-left:8%;
-    margin-right:8%
+    
+  }
+  hr{
+    margin-left:20%;
+    margin-right:20%;
   }
   b{font-size:26px;}
   
